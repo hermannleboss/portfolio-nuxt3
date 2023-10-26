@@ -3,6 +3,19 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&display=swap');
 
+.container-fluid {
+  padding: 0 32px;
+  width: 100%;
+  max-width: 1110px;
+
+  @media (min-width: 768px) {
+    padding: 0 39px;
+  }
+  @media (min-width: 1200px) {
+    margin: auto;
+  }
+  /**/
+}
 .title-1 {
   font-size: 3.125rem;
   font-weight: 700;

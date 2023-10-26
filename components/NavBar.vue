@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="container mx-auto px-4">
+  <div class="container-fluid mx-auto px-4 py-8">
 
     <svg
         class="nav-logo"
