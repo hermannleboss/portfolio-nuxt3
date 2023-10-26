@@ -1,5 +1,5 @@
 <template>
-  Index page
+  home page
 <!--  {{ story }}-->
 </template>
 
