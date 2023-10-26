@@ -14,6 +14,7 @@ export default {
             'light-gray': '#EAEAEB',
             'bright-red': '#F43030',
             white: colors.white,
+            black: colors.black,
             green: colors.green,
         },
         fontFamily: {
