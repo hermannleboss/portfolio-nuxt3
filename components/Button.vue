@@ -3,7 +3,7 @@
 </script>
 
 <template>
-  <div class="inline-flex bg-dark-blue hover:bg-dark-blue text-white font-bold">
+  <div class="inline-flex bg-dark-blue hover:bg-cyan text-white font-bold">
     <span class="flex items-center justify-center opacity-10 bg-black  p-4">
       <svg
           fill="none"
