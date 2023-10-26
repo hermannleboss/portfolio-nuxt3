@@ -16,6 +16,13 @@ pnpm install
 # yarn
 yarn install
 ```
+## Certificates
+Install chocolatey on your desktop
+Install open SSL
+
+
+npm install -g mkcert
+
 
 ## Development Server
 
