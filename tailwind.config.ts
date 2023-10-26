@@ -4,6 +4,8 @@ export default {
   content: [],
   theme: {
     colors: {
+        transparent: 'transparent',
+        current: 'currentColor',
         'cyan': '#5FB4A2',
         'dark-blue': '#203A4C',
         'grayish-dark-blue': '#33323D',
