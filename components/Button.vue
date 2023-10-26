@@ -14,7 +14,7 @@ const props = defineProps({
   >
     <slot name="icon">
     </slot>
-    <span class="px-12 py-4" style="font-size: 0.75rem; letter-spacing: 0.125rem">
+    <span class="px-12 py-4 w-max" style="font-size: 0.75rem; letter-spacing: 0.125rem">
        <slot></slot>
     </span>
   </div>
