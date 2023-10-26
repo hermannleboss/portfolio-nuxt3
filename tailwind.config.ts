@@ -11,6 +11,10 @@ export default {
         'light-gray': '#EAEAEB',
         'bright-red': '#F43030',
     },
+      fontFamily: {
+          sans: ['Public Sans', 'sans-serif'],
+          serif: ['Ibarra Real Nova', 'serif'],
+      },
     extend: {},
   },
   plugins: [],
