@@ -15,14 +15,10 @@ pnpm install
 
 # yarn
 yarn install
+
+# bun
+bun install
 ```
-## Certificates
-Install chocolatey on your desktop
-Install open SSL
-
-
-npm install -g mkcert
-
 
 ## Development Server
 
@@ -37,6 +33,9 @@ pnpm run dev
 
 # yarn
 yarn dev
+
+# bun
+bun run dev
 ```
 
 ## Production
@@ -52,6 +51,9 @@ pnpm run build
 
 # yarn
 yarn build
+
+# bun
+bun run build
 ```
 
 Locally preview production build:
@@ -65,6 +67,9 @@ pnpm run preview
 
 # yarn
 yarn preview
+
+# bun
+bun run preview
 ```
 
 Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.

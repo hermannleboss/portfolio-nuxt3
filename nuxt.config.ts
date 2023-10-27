@@ -1,12 +1,11 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
-import process from "process";
-
 export default defineNuxtConfig({
+    devtools: {enabled: false},
+    css: ['~/assets/css/main.scss'],
     modules: [
-        ["@storyblok/nuxt", {
-            accessToken: process.env.ACCESS_TOKEN,
-            devtools: true,
-        }]
+        '@nuxtjs/tailwindcss'
     ],
-    devtools: {enabled: true}
+    tailwindcss: {
+        viewer: false,
+    }
 })
