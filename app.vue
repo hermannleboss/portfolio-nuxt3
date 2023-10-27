@@ -4,6 +4,7 @@
     <div class="container-fluid mx-auto px-4">
       <NuxtPage></NuxtPage>
     </div>
+    <MainFooter></MainFooter>
   </div>
 </template>
 <script setup lang="ts">
