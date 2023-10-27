@@ -22,7 +22,7 @@ import IconComponent from "~/components/IconComponent.vue";
     />
 
     <div class="hero-text sm:absolute border border-very-light-gray bg-very-light-gray bottom-0 left-0">
-      <h1 class="pb-4 title-1 font-serif text-black font-bold">
+      <h1 class="title-1 font-serif text-black font-bold mb-12">
         Hey, I’m Hermann EHO and I love building beautiful websites
       </h1>
       <Button>
@@ -33,7 +33,7 @@ import IconComponent from "~/components/IconComponent.vue";
       </Button>
     </div>
   </div>
-  <div class="justify-start block md:flex">
+  <div class="justify-start block md:flex mt-40">
     <div class="w-full">
       <img
           alt="Profile image"
@@ -41,13 +41,11 @@ import IconComponent from "~/components/IconComponent.vue";
           src="~/assets/images/homepage/desktop/hermann-eho.jpg"
       />
     </div>
-    <div class="flex justify-between items-start about mx-24">
-      <div
-          class="border-top border-bottom mt-4 mt-md-0 d-flex h-100"
-      >
-        <div>
+    <div class="flex justify-between items-start about mx-24 min-h-full">
+      <div class="flex-col border-y border-light-gray mt-4 md:mt-0 flex  min-h-full">
+        <div class="min-h-max flex-col  flex-1">
           <h2 class="title-2 pt-3 py-sm-4 pb-4 m-0">About Me</h2>
-          <p class="text-justify">
+          <p class="text-justify flex-1">
             I’m a Frontend developer with about 4 year of experience,
             looking for a new role in an exciting company. I focus on writing
             accessible HTML, using modern CSS practices and writing clean
@@ -63,6 +61,9 @@ import IconComponent from "~/components/IconComponent.vue";
         </Button>
       </div>
     </div>
+  </div>
+  <div class="p-12">
+
   </div>
 </template>
 
