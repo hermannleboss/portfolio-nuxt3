@@ -19,11 +19,11 @@
         />
       </svg>
       <div>
-        <ul class="flex gap-3">
-          <li>HOME</li>
-          <li>PORTFOLIO</li>
-          <li>CONTACT ME</li>
-        </ul>
+        <div class="flex gap-3">
+          <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
+          <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
+          <NuxtLink>CONTACT</NuxtLink>
+        </div>
       </div>
     </div>
   </div>
