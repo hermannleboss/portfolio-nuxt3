@@ -5,7 +5,6 @@
 <template>
   <div class="container-fluid">
     <div class="py-8 flex justify-between">
-
       <NuxtLink to="/">
         <svg
             class="nav-logo"
@@ -21,7 +20,7 @@
           />
         </svg></NuxtLink>
       <div>
-        <div class="flex gap-12">
+        <div class="gap-12 hidden sm:flex">
           <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
           <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
           <NuxtLink to="/contact" :class="$route.path === '/contact' ? 'text-cyan': ''">CONTACT</NuxtLink>
