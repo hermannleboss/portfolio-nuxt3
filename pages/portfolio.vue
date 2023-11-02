@@ -1,7 +1,7 @@
 <script setup lang="ts">
 
 import PresentationCard from "~/components/PresentationCard.vue";
-const presentation= {imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg'}
+const presentation= {imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg', url:"/"}
 </script>
 
 <template>
