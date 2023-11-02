@@ -48,10 +48,6 @@ const onClickNav = () => {
 
 <style scoped>
 
-* {
-  border: solid 1px red;
-}
-
 a {
   font-size: 12px;
   line-height: normal;
