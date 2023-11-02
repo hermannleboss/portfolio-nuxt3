@@ -17,7 +17,7 @@
     />
 
     <div class="hero-text sm:absolute border border-very-light-gray bg-very-light-gray bottom-0 left-0">
-      <h1 class="title-1 font-serif text-black font-bold mb-12">
+      <h1 class="title-1 font-serif text-black font-bold mb-12 mt-6 sm:mt-0">
         Hey, I’m Hermann EHO and I love building beautiful websites
       </h1>
       <Button>
