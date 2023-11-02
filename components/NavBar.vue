@@ -1,11 +1,15 @@
 <script setup lang="ts">
-
+const activeNav = ref(false)
+const onClickNav = () => {
+  activeNav.value= !activeNav.value
+  console.log('clicked', activeNav.value)
+}
 </script>
 
 <template>
-  <div class="container-fluid">
+  <div class="container-fluid relative">
     <div class="py-8 flex justify-between">
-      <NuxtLink to="/">
+      <NuxtLink to="/" class="min-h-[40px]">
         <svg
             class="nav-logo"
             fill="none"
@@ -18,13 +22,24 @@
               fill="#33323D"
               fill-rule="evenodd"
           />
-        </svg></NuxtLink>
-      <div>
-        <div class="gap-12 hidden sm:flex">
-          <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
-          <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
-          <NuxtLink to="/contact" :class="$route.path === '/contact' ? 'text-cyan': ''">CONTACT</NuxtLink>
+        </svg>
+      </NuxtLink>
+      <div class="inline-block sm:hidden cursor-pointer p-2" @click="onClickNav()">
+        <img src="~/assets/images/icons/hamburger.svg" alt="Hamburger" v-if="!activeNav">
+        <img src="~/assets/images/icons/close.svg" alt="Close icon" v-else>
+      </div>
+
+      <div  v-if="activeNav" class="sm:hidden w-48 p-10 absolute z-10  mt-10 right-0 origin-top-right  bg-black text-white" aria-orientation="vertical" >
+        <div class="flex flex-col gap-8">
+          <NuxtLink to="/">HOME</NuxtLink>
+          <NuxtLink to="/portfolio">PORTFOLIO</NuxtLink>
+          <NuxtLink to="/contact">CONTACT</NuxtLink>
         </div>
+      </div>
+      <div class="gap-12 hidden sm:flex">
+        <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
+        <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
+        <NuxtLink to="/contact" :class="$route.path === '/contact' ? 'text-cyan': ''">CONTACT</NuxtLink>
       </div>
     </div>
   </div>
@@ -33,7 +48,11 @@
 
 <style scoped>
 
-a{
+* {
+  border: solid 1px red;
+}
+
+a {
   font-size: 12px;
   line-height: normal;
   letter-spacing: 2px;
