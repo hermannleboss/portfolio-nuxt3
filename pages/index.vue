@@ -1,6 +1,7 @@
 <script setup lang="ts">
 
 import IconComponent from "~/components/IconComponent.vue";
+import CallToAction from "~/components/CallToAction.vue";
 </script>
 
 <template>
@@ -44,7 +45,7 @@ import IconComponent from "~/components/IconComponent.vue";
     <div class="flex justify-between items-start about mx-24 min-h-full">
       <div class="flex-col border-y border-light-gray mt-4 md:mt-0 flex  min-h-full">
         <div class="min-h-max flex-col  flex-1">
-          <h2 class="title-2 pt-3 py-sm-4 pb-4 m-0">About Me</h2>
+          <h2 class="title-2 font-serif pt-3 py-sm-4 pb-4 m-0">About Me</h2>
           <p class="text-justify flex-1">
             I’m a Frontend developer with about 4 year of experience,
             looking for a new role in an exciting company. I focus on writing
@@ -56,20 +57,13 @@ import IconComponent from "~/components/IconComponent.vue";
             watching manga, or on my roof, tending to my plants. I’d love you to check out my work.
           </p>
         </div>
-        <Button variant="secondary" to="/realisation" class="my-4">
+        <Button variant="secondary" to="/portfolio" class="my-4">
           GO TO PORTFOLIO
         </Button>
       </div>
     </div>
   </div>
-  <div class="my-36 flex items-center">
-    <h3 class="title-2 max-w-sm pr-6">Interested in doing a project together?</h3>
-    <span class="flex-1 border border-light-gray-2 h-0 mx-8"></span>
-
-    <Button variant="secondary" to="/realisation" class="my-4">
-      CONTACT ME
-    </Button>
-  </div>
+  <CallToAction/>
 </template>
 
 <style scoped lang="scss">
