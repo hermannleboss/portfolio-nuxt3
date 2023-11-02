@@ -1,16 +1,16 @@
 <template>
-  <div class="justify-start block md:flex mt-40">
-    <div class="w-full">
+  <div class="justify-start block md:flex mt-40 gap-24">
+    <div class="max-w-[540px] w-full  min-h-max">
       <img
           alt="Profile image"
-          class="w-full"
+          class="w-full h-auto min-h-max object-cover"
           src="../assets/images/homepage/desktop/hermann-eho.jpg"
       />
     </div>
-    <div class="flex justify-between items-start about mx-24 min-h-full">
+    <div class="flex justify-between items-start min-h-full md:max-w-[350px]">
       <div class="flex-col border-y border-light-gray mt-4 md:mt-0 flex  min-h-full">
         <div class="min-h-max flex-col  flex-1">
-          <h2 class="title-2 font-serif pt-3 py-sm-4 pb-4 m-0">About Me</h2>
+          <h2 class="title-2 font-serif pt-8 pb-7 sm:pt-12 m-0">About Me</h2>
           <p class="text-justify flex-1">
             I’m a Frontend developer with about 4 year of experience,
             looking for a new role in an exciting company. I focus on writing
@@ -35,9 +35,6 @@ export default {
 }
 </script>
 <style scoped lang="scss">
-* {
-  border: solid 1px red;
-}
 
 .about {
   @media (min-width: 768px) {
