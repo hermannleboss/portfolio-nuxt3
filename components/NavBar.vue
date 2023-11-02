@@ -19,7 +19,7 @@
         />
       </svg>
       <div>
-        <div class="flex gap-3">
+        <div class="flex gap-12">
           <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
           <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
           <NuxtLink to="/contact" :class="$route.path === '/contact' ? 'text-cyan': ''">CONTACT</NuxtLink>
@@ -31,6 +31,15 @@
 </template>
 
 <style scoped>
+
+a{
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
 
 .nav-logo {
   width: 61px;
