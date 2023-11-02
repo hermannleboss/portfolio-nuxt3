@@ -22,7 +22,7 @@
         <div class="flex gap-3">
           <NuxtLink to="/" :class="$route.path === '/' ? 'text-cyan': ''">HOME</NuxtLink>
           <NuxtLink to="/portfolio" :class="$route.path === '/portfolio' ? 'text-cyan': ''">PORTFOLIO</NuxtLink>
-          <NuxtLink>CONTACT</NuxtLink>
+          <NuxtLink to="/contact">CONTACT</NuxtLink>
         </div>
       </div>
     </div>
