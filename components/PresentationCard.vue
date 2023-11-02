@@ -28,7 +28,7 @@ const props = defineProps({
             slider.</p>
           <p v-if="presentation.shortDesc ">{{ presentation.shortDesc }}</p>
 
-          <Button variant="secondary" to="/realisation" class="my-4">
+          <Button variant="secondary" :to="presentation.url" class="my-4">
             VIEW PROJECT
           </Button>
         </div>
