@@ -22,7 +22,7 @@ const props = defineProps({
     <div class="flex justify-between about mx-24 min-h-full">
       <div class="border-y border-light-gray mt-4 md:mt-0 flex items-center">
         <div>
-          <h2 class="title-2 pt-3 py-sm-4 pb-4 m-0">TITLE {{ presentation.title }}</h2>
+          <h2 class="title-2 font-serif pt-3 py-sm-4 pb-4 m-0">TITLE {{ presentation.title }}</h2>
           <p>This project required me to build a fully responsive landing page to the designs provided. I used HTML5,
             along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial
             slider.</p>
