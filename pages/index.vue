@@ -10,23 +10,3 @@ import AboutComponent from "~/components/AboutComponent.vue";
   <AboutComponent/>
   <CallToAction/>
 </template>
-
-<style scoped lang="scss">
-* {
-  border: solid 1px red;
-}
-.hero {
-  &-text {
-    @media (min-width: 640px) {
-      padding-top: 55px;
-      padding-right: 55px;
-      width: 514px;
-    }
-
-    @media (min-width: 1280px) {
-      width: 445px;
-    }
-  }
-}
-
-</style>
