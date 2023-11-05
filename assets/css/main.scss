@@ -17,10 +17,17 @@
   /**/
 }
 .title-1 {
-  font-size: 3.125rem;
+
+  font-size: 2.5rem;
   font-weight: 700;
-  line-height: 3.125rem; /* 100% */
-  letter-spacing: -0.02788rem;
+  line-height: 2.625rem; /* 105% */
+  letter-spacing: -0.02231rem;
+  @media (min-width: 768px) {
+    font-size: 3.125rem;
+    font-weight: 700;
+    line-height: 3.125rem; /* 100% */
+    letter-spacing: -0.02788rem;
+  }
 }
 
 .title-2 {
