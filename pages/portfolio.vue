@@ -6,7 +6,7 @@ const presentation= {imageUrl: '~/assets/images/homepage/desktop/image-homepage-
 </script>
 
 <template>
-  <div class="flex flex-col gap-20">
+  <div class="flex flex-col gap-16">
     <PresentationCard :presentation="presentation"></PresentationCard>
     <PresentationCard :presentation="presentation" variant="secondary"></PresentationCard>
   </div>
