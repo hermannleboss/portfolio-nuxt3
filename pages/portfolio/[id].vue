@@ -9,17 +9,25 @@ const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage
       class="w-full"
       src="~/assets/images/detail/desktop/image-bookmark-hero.jpg"
   />
-  <div class="flex flex-col gap-6 py-6 mt-10 border-y border-light-gray">
-    <h2 class="title-2 font-serif">Manage</h2>
-    <p>
-      This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along
-      with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
-    </p>
-    <p>Interaction Design / Front End Development
-      <br>HTML / CSS / JS</p>
-    <Button variant="secondary" :to="presentation.url">
-      VIEW WEBSITE
-    </Button>
+  <div class="py-6 mt-10 border-y border-light-gray block md:grid md:grid-cols-2 lg:block">
+    <div class="flex flex-col gap-6 items-start">
+      <h2 class="title-2 font-serif">Manage</h2>
+      <p class="md:hidden lg:block">
+        This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along
+        with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
+      </p>
+      <p>Interaction Design / Front End Development
+        <br>HTML / CSS / JS</p>
+      <Button variant="secondary" :to="presentation.url">
+        VIEW WEBSITE
+      </Button>
+    </div>
+    <div class="hidden md:block lg:hidden">
+      <p>
+        This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along
+        with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.
+      </p>
+    </div>
   </div>
   <div class="gap-6 py-6">
     <h2 class="title-2 font-light font-serif mt-12 mb-7">Project Background</h2>
@@ -46,7 +54,7 @@ const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage
       />
     </div>
   </div>
-  <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16">
+  <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16 sm:mt-20 md:mt-16">
       <div class="py-6 sm:flex  sm:gap-8 sm:items-center ">
         <img src="~/assets/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]">
         <div>
