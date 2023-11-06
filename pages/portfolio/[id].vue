@@ -47,15 +47,19 @@ const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage
     </div>
   </div>
   <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16">
-      <div class=" py-6">
-        <img src="~/assets/images/icons/arrow-left.svg" alt="Left Arrow">
-        <p class="title-3 mt-4">Fylo</p>
-        <p class="opacity-50">Previous Project</p>
+      <div class="py-6 sm:flex  sm:gap-8 sm:items-center ">
+        <img src="~/assets/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]">
+        <div>
+          <p class="title-3 mt-4">Fylo</p>
+          <p class="opacity-50">Previous Project</p>
+        </div>
       </div>
-      <div class="text-right  py-6 flex flex-col items-end">
-        <img src="~/assets/images/icons/arrow-right.svg" alt="Left Arrow">
-        <p class="title-3 mt-4">Bookmark</p>
-        <p class="opacity-50">Next Project</p>
+      <div class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8">
+        <img src="~/assets/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]">
+        <div>
+          <p class="title-3 mt-4">Bookmark</p>
+          <p class="opacity-50">Next Project</p>
+        </div>
       </div>
     </div>
 
