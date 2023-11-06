@@ -19,9 +19,34 @@ const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage
       <br>HTML / CSS / JS</p>
     <Button variant="secondary" :to="presentation.url">
       VIEW WEBSITE
-      VIEW WEBSITE
     </Button>
   </div>
+  <div class="gap-6 py-6">
+    <h2 class="title-2 font-light font-serif mt-12 mb-7">Project Background</h2>
+    <p>
+      This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building
+      websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website
+      should look at different screen sizes. Creating these projects has helped me refine my workflow and solve
+      real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my
+      style.
+    </p>
+  </div>
+  <div>
+    <h2 class="title-2 font-light font-serif my-10">Static Previews</h2>
+    <div class="flex flex-col gap-8">
+      <img
+          alt="image"
+          class="w-full"
+          src="~/assets/images/detail/desktop/image-bookmark-preview-1.jpg"
+      />
+      <img
+          alt="image"
+          class="w-full"
+          src="~/assets/images/detail/desktop/image-bookmark-preview-2.jpg"
+      />
+    </div>
+  </div>
+
   <CallToAction/>
 </template>
 
