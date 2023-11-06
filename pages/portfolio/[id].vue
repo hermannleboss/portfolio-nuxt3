@@ -46,6 +46,18 @@ const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage
       />
     </div>
   </div>
+  <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16">
+      <div class=" py-6">
+        <img src="~/assets/images/icons/arrow-left.svg" alt="Left Arrow">
+        <p class="title-3 mt-4">Fylo</p>
+        <p class="opacity-50">Previous Project</p>
+      </div>
+      <div class="text-right  py-6 flex flex-col items-end">
+        <img src="~/assets/images/icons/arrow-right.svg" alt="Left Arrow">
+        <p class="title-3 mt-4">Bookmark</p>
+        <p class="opacity-50">Next Project</p>
+      </div>
+    </div>
 
   <CallToAction/>
 </template>
