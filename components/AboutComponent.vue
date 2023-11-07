@@ -1,5 +1,5 @@
 <template>
-  <div class="justify-start block md:flex mt-40 gap-24">
+  <div class="justify-start block md:flex mt-40 gap-24" id="about">
     <div class="max-w-[540px] w-full md:min-w-[280px] ">
       <img
           alt="Profile image"
