@@ -24,8 +24,8 @@ const presentation = {
       src="~/assets/images/detail/desktop/image-bookmark-hero.jpg"
   />
   <div class="lg:flex justify-between lg:gap-8">
-    <div class="py-6 mt-10 border-y border-light-gray block md:grid md:grid-cols-2 lg:block md:max-w-[350px]">
-      <div class="flex flex-col gap-6 items-start">
+    <div class="py-6 mt-10 border-y border-light-gray block md:grid md:grid-cols-2 lg:block lg:max-w-[350px]">
+      <div class="flex flex-col gap-6 items-start md:pr-8">
         <h2 class="title-2 font-serif">{{ presentation.title }}</h2>
         <p class="md:hidden lg:block">
           {{ presentation.description }}
