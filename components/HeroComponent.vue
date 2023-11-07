@@ -20,7 +20,7 @@
       <h1 class="title-1 font-serif text-black font-bold mb-12 mt-6 sm:mt-0">
         Hey, I’m Hermann EHO and I love building beautiful websites
       </h1>
-      <Button>
+      <Button to="#about">
         <template #icon>
           <IconComponent/>
         </template>
