@@ -2,7 +2,7 @@
 
 const presentation = {
   imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg',
-  hero: "~/assets/images/detail/desktop/image-bookmark-hero.jpg",
+  hero: "/images/detail/desktop/image-bookmark-hero.jpg",
   preview: ["/images/detail/desktop/image-bookmark-preview-1.jpg", "/images/detail/desktop/image-bookmark-preview-2.jpg"],
   title: "Bookmark",
   background: ` This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building
@@ -18,10 +18,10 @@ const presentation = {
 </script>
 
 <template>
-  <img
+  <NuxtImg
       alt="image"
       class="w-full"
-      src="~/assets/images/detail/desktop/image-bookmark-hero.jpg"
+      :src="presentation.hero"
   />
   <div class="lg:flex justify-between lg:gap-8">
     <div class="py-6 mt-10 border-y border-light-gray block md:grid md:grid-cols-2 lg:block lg:max-w-[350px]">
@@ -30,7 +30,9 @@ const presentation = {
         <p class="md:hidden lg:block">
           {{ presentation.description }}
         </p>
-        <p> <span v-for="(skill, index) in presentation.skills">{{skill}} {{ index !== presentation.skills.length-1 ? ' / ' : ''}} </span></p>
+        <p><span
+            v-for="(skill, index) in presentation.skills">{{ skill }} {{ index !== presentation.skills.length - 1 ? ' / ' : '' }} </span>
+        </p>
         <Button variant="secondary" :to="presentation.url">
           VIEW WEBSITE
         </Button>
@@ -51,10 +53,10 @@ const presentation = {
       <div>
         <h2 class="title-2 font-light font-serif my-10">Static Previews</h2>
         <div class="flex flex-col gap-8">
-          <img v-for="image in presentation.preview"
-              alt="image"
-              class="w-full"
-              :src="image"
+          <NuxtImg v-for="image in presentation.preview"
+                   alt="image"
+                   class="w-full"
+                   :src="image"
           />
         </div>
       </div>
@@ -62,14 +64,14 @@ const presentation = {
   </div>
   <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16 sm:mt-20 md:mt-16">
     <div class="py-6 sm:flex  sm:gap-8 sm:items-center ">
-      <img src="~/assets/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]">
+      <NuxtImg src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <div>
         <p class="title-3 mt-4">Fylo</p>
         <p class="opacity-50">Previous Project</p>
       </div>
     </div>
     <div class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8">
-      <img src="~/assets/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]">
+      <NuxtImg src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <div>
         <p class="title-3 mt-4">Bookmark</p>
         <p class="opacity-50">Next Project</p>
