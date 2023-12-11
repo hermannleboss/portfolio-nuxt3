@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
     devtools: {enabled: false},
     css: ['~/assets/css/main.scss'],
-    modules: ['@nuxtjs/tailwindcss', "@nuxt/image"],
+    modules: ['@nuxtjs/tailwindcss', "@nuxt/image", '@pinia/nuxt'],
     tailwindcss: {
         viewer: false,
     }
