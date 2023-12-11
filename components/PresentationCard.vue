@@ -15,11 +15,10 @@ const props = defineProps({
 <template>
   <div :class="props.variant==='secondary'? 'flex-row-reverse': ''" class="block md:flex m-0 sm:gap-16">
     <div class=" w-full">
-      <img
+      <NuxtImg
           alt="Profile image"
-          class="img-full mx-auto card-image"
-          src="~/assets/images/portfolio/desktop/image-portfolio-bookmark.jpg"
-      />
+          class="img-full w-full mx-auto card-image"
+          src="/images/portfolio/desktop/image-portfolio-bookmark.jpg"></NuxtImg>
     </div>
     <div class="flex justify-between about m-0 lg:mx-24 min-h-full md:max-w-[280px]">
       <div class="border-y border-light-gray mt-8 md:mt-0 flex items-center">
