@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+const appStore = useAppStore()
+appStore.setRealisations([])
 const presentation = {
   imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg',
   hero: "/images/detail/desktop/image-bookmark-hero.jpg",
@@ -31,7 +32,9 @@ const presentation = {
           {{ presentation.description }}
         </p>
         <p><span
-            v-for="(skill, index) in presentation.skills">{{ skill }} {{ index !== presentation.skills.length - 1 ? ' / ' : '' }} </span>
+            v-for="(skill, index) in presentation.skills">{{
+            skill
+          }} {{ index !== presentation.skills.length - 1 ? ' / ' : '' }} </span>
         </p>
         <Button variant="secondary" :to="presentation.url">
           VIEW WEBSITE

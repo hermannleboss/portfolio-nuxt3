@@ -9,5 +9,9 @@ export const useAppStore = defineStore('app', () => {
         realisations.value = data
     }
 
+    const getRealisations = computed(() => {
+        return realisations.value
+    })
+
     return {realisations, setRealisations}
 })
