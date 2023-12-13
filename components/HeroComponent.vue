@@ -1,9 +1,10 @@
 <template>
   <div class="relative">
-    <img
+    <NuxtImg src="/favicon.ico" />
+    <NuxtImg
         alt="image"
         class="hidden xl:block w-full"
-        src="../assets/images/homepage/desktop/image-homepage-hero.jpg"
+        src="/homepage/desktop/image-homepage-hero.jpg"
     />
     <img
         alt="image"

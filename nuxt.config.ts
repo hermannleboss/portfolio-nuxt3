@@ -5,5 +5,8 @@ export default defineNuxtConfig({
     modules: ['@nuxtjs/tailwindcss', "@nuxt/image", '@pinia/nuxt'],
     tailwindcss: {
         viewer: false,
+    },
+    image: {
+        dir: 'assets',
     }
 })
