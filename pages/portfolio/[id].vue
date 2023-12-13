@@ -2,7 +2,7 @@
 const appStore = useAppStore()
 appStore.setRealisations([])
 const presentation = {
-  imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg',
+  imageUrl: '/images/homepage/desktop/image-homepage-hero.jpg',
   hero: "/images/detail/desktop/image-bookmark-hero.jpg",
   preview: ["/images/detail/desktop/image-bookmark-preview-1.jpg", "/images/detail/desktop/image-bookmark-preview-2.jpg"],
   title: "Bookmark",
