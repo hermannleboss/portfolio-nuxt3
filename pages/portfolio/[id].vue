@@ -1,21 +1,41 @@
 <script setup lang="ts">
 const appStore = useAppStore()
 appStore.setRealisations([])
-const presentation = {
-  imageUrl: '/images/homepage/desktop/image-homepage-hero.jpg',
-  hero: "/images/detail/desktop/image-bookmark-hero.jpg",
-  preview: ["/images/detail/desktop/image-bookmark-preview-1.jpg", "/images/detail/desktop/image-bookmark-preview-2.jpg"],
-  title: "Bookmark",
-  background: ` This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building
-          websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website
-          should look at different screen sizes. Creating these projects has helped me refine my workflow and solve
-          real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my
-          style.`,
-  description: `This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along
-          with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.`,
-  skills: ["Interaction Design", "Front End Development", "HTML", "CSS", "JS"],
-  url: "https://celebrityfanalyzer.com/"
+// Import a projects.json file
+import projectsData from "~/assets/projects.json"
+
+// Type the projects
+interface Project {
+  id: string
+  title: string
+  hero: string
+  preview: string[]
+  background: string
+  description: string
+  skills: string[]
+  url: string
 }
+
+const projects: Project[] = projectsData
+// Vue router
+
+const router = useRouter()
+
+console.log(router.currentRoute.value.params.id)
+const presentation = computed(() => {
+  return projects.find((project, index) => {
+    return index === parseInt(router.currentRoute.value.params.id as string)
+  })
+})
+const next = computed(() => {
+  if (projects.length === parseInt(router.currentRoute.value.params.id as string) + 1) return projects[0]
+  return projects[parseInt(router.currentRoute.value.params.id as string) + 1]
+})
+
+const prev= computed(() => {
+  if (parseInt(router.currentRoute.value.params.id as string) === 0) return projects[projects.length - 1]
+  return projects[parseInt(router.currentRoute.value.params.id as string) - 1]
+})
 </script>
 
 <template>
@@ -66,17 +86,17 @@ const presentation = {
     </div>
   </div>
   <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16 sm:mt-20 md:mt-16">
-    <div class="py-6 sm:flex  sm:gap-8 sm:items-center ">
+    <div class="py-6 sm:flex  sm:gap-8 sm:items-center " v-if="prev">
       <NuxtImg src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <div>
-        <p class="title-3 mt-4">Fylo</p>
+        <p class="title-3 mt-4">{{prev.title}}</p>
         <p class="opacity-50">Previous Project</p>
       </div>
     </div>
-    <div class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8">
+    <div class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8" v-if="next">
       <NuxtImg src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <div>
-        <p class="title-3 mt-4">Bookmark</p>
+        <p class="title-3 mt-4">{{next.title}}</p>
         <p class="opacity-50">Next Project</p>
       </div>
     </div>
