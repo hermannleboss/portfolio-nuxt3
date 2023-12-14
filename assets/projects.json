@@ -61,18 +61,20 @@
     "url": "http://sa.hermanneho.com/"
   },
   {
-    "imageUrl": "/images/homepage/desktop/image-homepage-hero.jpg",
-    "hero": "/images/detail/desktop/image-fylo-hero.jpg",
+    "imageUrl": "/images/cf.jpg",
+    "hero": "/images/cf-hero.jpg",
     "preview": [
-      "/images/detail/desktop/image-fylo-preview-1.jpg",
-      "/images/detail/desktop/image-fylo-preview-2.jpg"
+      "/images/cf-preview.jpg",
+      "/images/cf-preview-2.jpg"
     ],
-    "title": "V3 LG pd",
-    "background": "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
-    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+    "title": "Celebrity Fanalyzer",
+    "background": "Celebrity Fanalyzer is intended to be a project of very limited scope. It is to host entries to a competitions run via the Freelancer web platform. It is to be a simple web application with the primary functionality being limited to CRUD operations and the representation of user reactions through rich graphical renderings. Any financial integration is to be avoided as is the gathering of personal information. Prior to being recast as Globe&Citizen, the company will complete work on an anonymizing HTTP reverse proxy called, \"Layer8.\" This anonymizing reverse proxy will have the sole purpose of removing from user requests all identifying information. This will allow Globe&Citizen to reflect usage statistics publicly without any possibility of leaking personal information -- this is absolutely fundamental to success.",
+    "description": "Celebrity Fanalyzer is the initial testing ground for an online news media platform called “Globe & Citizen.” The purpose of this pilot project is to expose unknown unknowns in the product development lifecycle, user experience, and software architecture. It is also to test functionality.",
     "skills": [
-      "Interaction Design",
-      "Front End Development",
+      "Quasar",
+      "Unit Testing",
+      "End to End Testing",
+      "CI/CD",
       "HTML",
       "CSS",
       "JS"
