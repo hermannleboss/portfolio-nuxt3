@@ -10,7 +10,8 @@ export default defineNuxtConfig({
         dir: 'assets',
         provider: 'netlify',
         netlify: {
-            baseURl: process.env.IMAGES_URL
+            baseURL: 'https://api.netlify.com',
+
         }
     }
 })
