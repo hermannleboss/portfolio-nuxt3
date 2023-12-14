@@ -22,20 +22,19 @@ const projects: Project[] = projectsData
 const router = useRouter()
 
 const routeId = parseInt(router.currentRoute.value.params.id as string)
-console.log(router.currentRoute.value.params.id)
 const presentation = computed(() => {
   return projects.find((project, index) => {
     return index === parseInt(router.currentRoute.value.params.id as string)
   })
 })
 const next = computed(() => {
-  //if (projects.length === parseInt(router.currentRoute.value.params.id as string) + 1) return projects[0]
-  if (projects.length === parseInt(router.currentRoute.value.params.id as string) + 1) null
+  if (projects.length === parseInt(router.currentRoute.value.params.id as string) + 1) return projects[0]
+  // if (projects.length === parseInt(router.currentRoute.value.params.id as string) + 1) null
   return projects[parseInt(router.currentRoute.value.params.id as string) + 1]
 })
 
 const prev = computed(() => {
-  //if (parseInt(router.currentRoute.value.params.id as string) === 0) return projects[projects.length - 1]
+  if (parseInt(router.currentRoute.value.params.id as string) === 0) return projects[projects.length - 1]
   if (parseInt(router.currentRoute.value.params.id as string) === 0) return null
   return projects[parseInt(router.currentRoute.value.params.id as string) - 1]
 })
@@ -45,6 +44,7 @@ const prev = computed(() => {
   <NuxtImg
       alt="image"
       class="w-full"
+      placeholder
       :src="presentation.hero"
   />
   <div class="lg:flex justify-between lg:gap-8">
@@ -89,14 +89,15 @@ const prev = computed(() => {
     </div>
   </div>
   <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16 sm:mt-20 md:mt-16">
-    <NuxtLink :to="'/portfolio/'+(routeId-1)" class="py-6 sm:flex  sm:gap-8 sm:items-center border-r-1 border-light-gray" v-if="prev">
+    <NuxtLink :to="'/portfolio/'+(routeId==0 ? projects.length-1 : routeId-1)"
+              class="py-6 sm:flex  sm:gap-8 sm:items-center border-r-1 border-light-gray" v-if="prev">
       <NuxtImg src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <div>
         <p class="title-3 mt-4">{{ prev.title }}</p>
         <p class="opacity-50">Previous Project</p>
       </div>
     </NuxtLink>
-    <NuxtLink :to="'/portfolio/'+(routeId+1)"
+    <NuxtLink :to="'/portfolio/'+(routeId==projects.length-1 ? 0 : routeId+1)"
               class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8"
               v-if="next">
       <NuxtImg src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
