@@ -1,0 +1,105 @@
+[
+  {
+    "imageUrl": "/images/ct.jpg",
+    "hero": "/images/ct-hero.jpg",
+    "preview": [
+      "/images/ct-preview.jpg",
+      "/images/ct-preview-2.jpg"
+    ],
+    "title": "Crypto Tips",
+    "background": "Crypto Tip, the app that revolutionizes how you show appreciation and support to your team. Imagine being part of an incredible team, where every member's contribution is valued equally. With Crypto Tip, you can effortlessly send tips to each team member's wallet address, ensuring that everyone receives an equal share of cryptocurrency. Say goodbye to the hassle and confusion of manual calculations—Crypto Tip guarantees fairness and unity with just a few taps. Whether you're an artist, developer, or activist, Crypto Tip empowers you to reward and uplift your team, fostering a spirit of collaboration and equality.",
+    "description": "CryptoTips is an innovative application revolutionizing team-based cryptocurrency tipping. With its user-centric design, seamless integration of smart contracts, and backend support, CryptoTips ensures fair and transparent distribution of crypto rewards among team members",
+    "skills": [
+      "Quasar",
+      "Solidity",
+      "Hardhat",
+      "Docker",
+      "HTML",
+      "CSS",
+      "Typescript"
+    ],
+    "url": "https://crypto-tip-app.web.app/"
+  },
+  {
+    "imageUrl": "/images/cf.jpg",
+    "hero": "/images/cf-hero.jpg",
+    "preview": [
+      "/images/cf-preview.jpg",
+      "/images/cf-preview-2.jpg"
+    ],
+    "title": "Celebrity Fanalyzer",
+    "background": "Celebrity Fanalyzer is intended to be a project of very limited scope. It is to host entries to a competitions run via the Freelancer web platform. It is to be a simple web application with the primary functionality being limited to CRUD operations and the representation of user reactions through rich graphical renderings. Any financial integration is to be avoided as is the gathering of personal information. Prior to being recast as Globe&Citizen, the company will complete work on an anonymizing HTTP reverse proxy called, \"Layer8.\" This anonymizing reverse proxy will have the sole purpose of removing from user requests all identifying information. This will allow Globe&Citizen to reflect usage statistics publicly without any possibility of leaking personal information -- this is absolutely fundamental to success.",
+    "description": "Celebrity Fanalyzer is the initial testing ground for an online news media platform called “Globe & Citizen.” The purpose of this pilot project is to expose unknown unknowns in the product development lifecycle, user experience, and software architecture. It is also to test functionality.",
+    "skills": [
+      "Quasar",
+      "Unit Testing",
+      "End to End Testing",
+      "CI/CD",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://celebrityfanalyzer.com/"
+  },
+  {
+    "imageUrl": "/images/mg.png",
+    "hero": "/images/mg-hero.png",
+    "preview": [
+      "/images/mg-preview.png",
+      "/images/mg-preview-2.png"
+    ],
+    "title": "Municipalities Content Manager",
+    "background": "Municipalities Content Manager is an innovative platform tailored to meet the needs of municipalities in Togo. This versatile tool seamlessly integrates a dynamic website and a customized Content Management System (CMS). Designed to streamline communication and internal management, Mairie Content Manager offers a comprehensive range of features. It facilitates easy article management, a digital library, coordination of various municipal services including online appointment scheduling, and efficient handling of diverse committees. This application is devised to enhance productivity and accessibility of municipal services, providing a comprehensive solution tailored to the specific requirements of Togolese municipalities.",
+    "description": "An integrated platform tailored for Togo's municipalities, offering a dynamic website and a customizable Content Management System. Streamlining communication and management, it includes features like article management, a digital library, service coordination with online appointment scheduling, and efficient committee handling.",
+    "skills": [
+      "Quasar",
+      "Unit Testing",
+      "End to End Testing",
+      "CI/CD",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://golfe3.mairie.tg/"
+  },
+  {
+    "imageUrl": "/images/ch-2000.png",
+    "hero": "/images/ch-2000-hero.png",
+    "preview": [
+      "/images/ch-2000-preview.png",
+      "/images/ch-2000-preview-2.png"
+    ],
+    "title": "CH2000",
+    "background": "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
+    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
+    "skills": [
+      "Laravel",
+      "Front End Development",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://ch2000.net/"
+  },
+  {
+    "imageUrl": "/images/sa.png",
+    "hero": "/images/sa-hero.png",
+    "preview": [
+      "/images/sa-preview.png",
+      "/images/sa-preview-2.png"
+    ],
+    "title": "Soins & Assistance",
+    "background": "'Soins & Assistance' is a platform dedicated to healthcare professionals looking for professional opportunities. Our platform provides simplified access to a wide range of medical and support job openings, making the recruiting process easier for qualified candidates. Whether you are a nurse, doctor, caregiver or health professional, our site helps you find positions matching your skills and easily move through the different recruitment stages.",
+    "description": "Soins & Assistance is a job search site specializing in the field of care and health.",
+    "skills": [
+      "Symfony",
+      "Front End Development",
+      "HTML",
+      "Bootstrap",
+      "CSS",
+      "JS",
+      "PHP"
+    ],
+    "url": "http://sa.hermanneho.com/"
+  }
+]
