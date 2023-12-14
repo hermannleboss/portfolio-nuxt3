@@ -29,7 +29,7 @@ const props = defineProps({
           class="img-full w-full mx-auto card-image"
           :src="presentation.imageUrl"></NuxtImg>
     </div>
-    <div class="flex justify-between about m-0 lg:mx-24 min-h-full md:max-w-[280px]">
+    <div class="flex justify-between about m-0 lg:mx-24 min-h-full md:max-w-[280px] lg:max-w-[350px]">
       <div class="border-y border-light-gray mt-8 md:mt-0 flex items-center">
         <div>
           <h2 class="title-2 font-serif py-8">{{ presentation.title }}</h2>
