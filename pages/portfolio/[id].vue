@@ -92,19 +92,19 @@ const prev = computed(() => {
     <NuxtLink :to="'/portfolio/'+(routeId==0 ? projects.length-1 : routeId-1)"
               class="py-6 sm:flex  sm:gap-8 sm:items-center border-r-1 border-light-gray" v-if="prev">
       <NuxtImg src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
-      <div>
-        <p class="title-3 mt-4">{{ prev.title }}</p>
-        <p class="opacity-50">Previous Project</p>
-      </div>
+      <span>
+        <span class="title-3 mt-4 block">{{ prev.title }}</span>
+        <span class="opacity-50 block">Previous Project</span>
+      </span>
     </NuxtLink>
     <NuxtLink :to="'/portfolio/'+(routeId==projects.length-1 ? 0 : routeId+1)"
               class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8"
               v-if="next">
       <NuxtImg src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
-      <div>
-        <p class="title-3 mt-4">{{ next.title }}</p>
-        <NuxtLink class="opacity-50">Next Project</NuxtLink>
-      </div>
+      <span>
+        <span class="title-3 mt-4 block">{{ next.title }}</span>
+        <span class="opacity-50 block">Next Project</span>
+      </span>
     </NuxtLink>
   </div>
 
