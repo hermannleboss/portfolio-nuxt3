@@ -21,6 +21,27 @@
     "url": "https://crypto-tip-app.web.app/"
   },
   {
+    "imageUrl": "/images/cf.jpg",
+    "hero": "/images/cf-hero.jpg",
+    "preview": [
+      "/images/cf-preview.jpg",
+      "/images/cf-preview-2.jpg"
+    ],
+    "title": "Celebrity Fanalyzer",
+    "background": "Celebrity Fanalyzer is intended to be a project of very limited scope. It is to host entries to a competitions run via the Freelancer web platform. It is to be a simple web application with the primary functionality being limited to CRUD operations and the representation of user reactions through rich graphical renderings. Any financial integration is to be avoided as is the gathering of personal information. Prior to being recast as Globe&Citizen, the company will complete work on an anonymizing HTTP reverse proxy called, \"Layer8.\" This anonymizing reverse proxy will have the sole purpose of removing from user requests all identifying information. This will allow Globe&Citizen to reflect usage statistics publicly without any possibility of leaking personal information -- this is absolutely fundamental to success.",
+    "description": "Celebrity Fanalyzer is the initial testing ground for an online news media platform called “Globe & Citizen.” The purpose of this pilot project is to expose unknown unknowns in the product development lifecycle, user experience, and software architecture. It is also to test functionality.",
+    "skills": [
+      "Quasar",
+      "Unit Testing",
+      "End to End Testing",
+      "CI/CD",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://celebrityfanalyzer.com/"
+  },
+  {
     "imageUrl": "/images/ch-2000.png",
     "hero": "/images/ch-2000-hero.png",
     "preview": [
@@ -59,26 +80,5 @@
       "PHP"
     ],
     "url": "http://sa.hermanneho.com/"
-  },
-  {
-    "imageUrl": "/images/cf.jpg",
-    "hero": "/images/cf-hero.jpg",
-    "preview": [
-      "/images/cf-preview.jpg",
-      "/images/cf-preview-2.jpg"
-    ],
-    "title": "Celebrity Fanalyzer",
-    "background": "Celebrity Fanalyzer is intended to be a project of very limited scope. It is to host entries to a competitions run via the Freelancer web platform. It is to be a simple web application with the primary functionality being limited to CRUD operations and the representation of user reactions through rich graphical renderings. Any financial integration is to be avoided as is the gathering of personal information. Prior to being recast as Globe&Citizen, the company will complete work on an anonymizing HTTP reverse proxy called, \"Layer8.\" This anonymizing reverse proxy will have the sole purpose of removing from user requests all identifying information. This will allow Globe&Citizen to reflect usage statistics publicly without any possibility of leaking personal information -- this is absolutely fundamental to success.",
-    "description": "Celebrity Fanalyzer is the initial testing ground for an online news media platform called “Globe & Citizen.” The purpose of this pilot project is to expose unknown unknowns in the product development lifecycle, user experience, and software architecture. It is also to test functionality.",
-    "skills": [
-      "Quasar",
-      "Unit Testing",
-      "End to End Testing",
-      "CI/CD",
-      "HTML",
-      "CSS",
-      "JS"
-    ],
-    "url": "https://celebrityfanalyzer.com/"
   }
 ]
