@@ -1,5 +1,26 @@
 [
   {
+    "imageUrl": "/images/ct.jpg",
+    "hero": "/images/ct-hero.jpg",
+    "preview": [
+      "/images/ct-preview.jpg",
+      "/images/ct-preview-2.jpg"
+    ],
+    "title": "Crypto Tips",
+    "background": "Crypto Tip, the app that revolutionizes how you show appreciation and support to your team. Imagine being part of an incredible team, where every member's contribution is valued equally. With Crypto Tip, you can effortlessly send tips to each team member's wallet address, ensuring that everyone receives an equal share of cryptocurrency. Say goodbye to the hassle and confusion of manual calculations—Crypto Tip guarantees fairness and unity with just a few taps. Whether you're an artist, developer, or activist, Crypto Tip empowers you to reward and uplift your team, fostering a spirit of collaboration and equality.",
+    "description": "CryptoTips is an innovative application revolutionizing team-based cryptocurrency tipping. With its user-centric design, seamless integration of smart contracts, and backend support, CryptoTips ensures fair and transparent distribution of crypto rewards among team members",
+    "skills": [
+      "Quasar",
+      "Solidity",
+      "Hardhat",
+      "Docker",
+      "HTML",
+      "CSS",
+      "Typescript"
+    ],
+    "url": "https://crypto-tip-app.web.app/"
+  },
+  {
     "imageUrl": "/images/ch-2000.png",
     "hero": "/images/ch-2000-hero.png",
     "preview": [
