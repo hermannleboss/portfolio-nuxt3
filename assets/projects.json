@@ -42,6 +42,27 @@
     "url": "https://celebrityfanalyzer.com/"
   },
   {
+    "imageUrl": "/images/mg.png",
+    "hero": "/images/mg-hero.png",
+    "preview": [
+      "/images/mg-preview.png",
+      "/images/mg-preview-2.png"
+    ],
+    "title": "Municipalities Content Manager",
+    "background": "Municipalities Content Manager is an innovative platform tailored to meet the needs of municipalities in Togo. This versatile tool seamlessly integrates a dynamic website and a customized Content Management System (CMS). Designed to streamline communication and internal management, Mairie Content Manager offers a comprehensive range of features. It facilitates easy article management, a digital library, coordination of various municipal services including online appointment scheduling, and efficient handling of diverse committees. This application is devised to enhance productivity and accessibility of municipal services, providing a comprehensive solution tailored to the specific requirements of Togolese municipalities.",
+    "description": "An integrated platform tailored for Togo's municipalities, offering a dynamic website and a customizable Content Management System. Streamlining communication and management, it includes features like article management, a digital library, service coordination with online appointment scheduling, and efficient committee handling.",
+    "skills": [
+      "Quasar",
+      "Unit Testing",
+      "End to End Testing",
+      "CI/CD",
+      "HTML",
+      "CSS",
+      "JS"
+    ],
+    "url": "https://golfe3.mairie.tg/"
+  },
+  {
     "imageUrl": "/images/ch-2000.png",
     "hero": "/images/ch-2000-hero.png",
     "preview": [
