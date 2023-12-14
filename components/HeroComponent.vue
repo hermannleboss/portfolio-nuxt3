@@ -1,20 +1,19 @@
 <template>
   <div class="relative">
-    <NuxtImg src="/favicon.ico" />
     <NuxtImg
         alt="image"
         class="hidden xl:block w-full"
-        src="/homepage/desktop/image-homepage-hero.jpg"
+        src="/images/homepage/desktop/image-homepage-hero.jpg"
     />
-    <img
+    <NuxtImg
         alt="image"
         class="hidden md:block xl:hidden w-full"
-        src="../assets/images/homepage/tablet/image-homepage-hero.jpg"
+        src="/images/homepage/tablet/image-homepage-hero.jpg"
     />
-    <img
+    <NuxtImg
         alt="image"
         class="block md:hidden w-full"
-        src="../assets/images/homepage/mobile/image-homepage-hero.jpg"
+        src="/images/homepage/mobile/image-homepage-hero.jpg"
     />
 
     <div class="hero-text sm:absolute border border-very-light-gray bg-very-light-gray bottom-0 left-0">
