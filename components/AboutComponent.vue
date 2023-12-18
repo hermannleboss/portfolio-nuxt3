@@ -4,7 +4,7 @@
       <img
           alt="Profile image"
           class="w-full min-h-max object-cover h-full"
-          src="../assets/images/homepage/desktop/hermann-eho.jpg"
+          src="/images/homepage/desktop/hermann-eho.jpg"
       />
     </div>
     <div class="flex justify-between items-start min-h-full md:max-w-[350px]">

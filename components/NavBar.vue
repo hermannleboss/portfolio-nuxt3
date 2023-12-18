@@ -25,8 +25,8 @@ const onClickNav = () => {
         </svg>
       </NuxtLink>
       <div class="inline-block sm:hidden cursor-pointer p-2" @click="onClickNav()">
-        <img src="~/assets/images/icons/hamburger.svg" alt="Hamburger" v-if="!activeNav">
-        <img src="~/assets/images/icons/close.svg" alt="Close icon" v-else>
+        <img src="/images/icons/hamburger.svg" alt="Hamburger" v-if="!activeNav">
+        <img src="/images/icons/close.svg" alt="Close icon" v-else>
       </div>
 
       <div  v-if="activeNav" class="sm:hidden w-48 p-10 absolute z-10  mt-10 right-0 origin-top-right  bg-black text-white" aria-orientation="vertical" >
