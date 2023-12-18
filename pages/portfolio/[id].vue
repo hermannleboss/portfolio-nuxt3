@@ -45,6 +45,8 @@ const prev = computed(() => {
       alt="image"
       class="w-full"
       placeholder
+      width="1110px"
+      height="500px"
       :src="presentation.hero"
   />
   <div class="lg:flex justify-between lg:gap-8">
@@ -83,6 +85,8 @@ const prev = computed(() => {
                    alt="image"
                    class="w-full"
                    :src="image"
+                   width="635px"
+                   height="400px"
           />
         </div>
       </div>
