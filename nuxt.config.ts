@@ -11,5 +11,13 @@ export default defineNuxtConfig({
         netlify: {
             baseURl: process.env.IMAGES_URL
         }
+    },
+    runtimeConfig: {
+        public: {
+            sentry: {
+                dsn: process.env.SENTRY_DSN,
+                environment: process.env.NUXT_PUBLIC_SENTRY_ENVIRONMENT,
+            }
+        }
     }
 })
