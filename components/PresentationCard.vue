@@ -17,7 +17,7 @@ interface Project {
 
 const props = defineProps({
   variant: {type: String, default: 'primary'},
-  presentation: {type:  Object as PropType<Project>, required: true, default: {imageUrl: ''}}
+  presentation: {type: Object as PropType<Project>, required: true, default: {imageUrl: ''}}
 })
 </script>
 
@@ -27,7 +27,9 @@ const props = defineProps({
       <NuxtImg
           alt="Profile image"
           class="img-full w-full mx-auto card-image"
-          :src="presentation.imageUrl"></NuxtImg>
+          :src="presentation.imageUrl"
+          width="540px"
+          height="500px"></NuxtImg>
     </div>
     <div class="flex justify-between about m-0 lg:mx-24 min-h-full md:max-w-[280px] lg:max-w-[350px]">
       <div class="border-y border-light-gray mt-8 md:mt-0 flex items-center">
