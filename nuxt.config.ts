@@ -1,9 +1,12 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-    app:{
+    app: {
         head: {
             charset: 'utf-8',
             title: 'Hermann EHO | Web Developer',
+            htmlAttrs: {
+                lang: 'en'
+            }
         }
     },
     devtools: {enabled: true},
