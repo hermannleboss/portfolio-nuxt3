@@ -9,7 +9,7 @@ const onClickNav = () => {
 <template>
   <div class="container-fluid relative">
     <div class="py-8 flex justify-between">
-      <NuxtLink to="/" class="min-h-[40px] sm:min-h-full">
+      <NuxtLink to="/" class="min-h-[40px] sm:min-h-full" aria-label="Home page">
         <svg
             class="nav-logo"
             fill="none"
