@@ -3,7 +3,7 @@ export default defineNuxtConfig({
     app: {
         head: {
             charset: 'utf-8',
-            title: 'Hermann EHO | Web Developer',
+            title: 'Hermann EHO | Web3 Developer',
             htmlAttrs: {
                 lang: 'en'
             }
