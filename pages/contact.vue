@@ -14,19 +14,19 @@
           <img
               alt="Github Icon"
               class="img-full mx-auto"
-              src="~/assets/images/icons/github.svg">
+              src="/images/icons/github.svg">
         </NuxtLink>
         <NuxtLink  to="https://twitter.com/hermanneho" class="p-4">
           <img
               alt="Twitter Icon"
               class="img-full mx-auto"
-              src="~/assets/images/icons/twitter.svg">
+              src="/images/icons/twitter.svg">
         </NuxtLink>
         <NuxtLink  to="https://www.linkedin.com/in/hermann-eho/" class="p-4">
           <img
               alt="Linkedin Icon"
               class="img-full mx-auto"
-              src="~/assets/images/icons/linkedin.svg">
+              src="/images/icons/linkedin.svg">
         </NuxtLink>
       </div>
     </div>

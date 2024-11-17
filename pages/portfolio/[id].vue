@@ -45,6 +45,10 @@ const prev = computed(() => {
       alt="image"
       class="w-full"
       placeholder
+      width="1110px"
+      height="500px"
+      format="webp"
+      loading="lazy"
       :src="presentation.hero"
   />
   <div class="lg:flex justify-between lg:gap-8">
@@ -82,6 +86,10 @@ const prev = computed(() => {
           <NuxtImg v-for="image in presentation.preview"
                    alt="image"
                    class="w-full"
+                   format="webp"
+                   loading="lazy"
+                   width="635px"
+                   height="400px"
                    :src="image"
           />
         </div>
@@ -91,7 +99,7 @@ const prev = computed(() => {
   <div class="border-y border-light-gray grid grid-cols-2 divide-x divide-light-gray mt-16 sm:mt-20 md:mt-16">
     <NuxtLink :to="'/portfolio/'+(routeId==0 ? projects.length-1 : routeId-1)"
               class="py-6 sm:flex  sm:gap-8 sm:items-center border-r-1 border-light-gray" v-if="prev">
-      <NuxtImg src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
+      <img src="/images/icons/arrow-left.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <span>
         <span class="title-3 mt-4 block">{{ prev.title }}</span>
         <span class="opacity-50 block">Previous Project</span>
@@ -100,7 +108,7 @@ const prev = computed(() => {
     <NuxtLink :to="'/portfolio/'+(routeId==projects.length-1 ? 0 : routeId+1)"
               class="flex flex-col sm:flex-row-reverse text-right  py-6  items-end sm:items-center sm:gap-8"
               v-if="next">
-      <NuxtImg src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
+      <img src="/images/icons/arrow-right.svg" alt="Left Arrow" class="w-[8px] h-[16px]"/>
       <span>
         <span class="title-3 mt-4 block">{{ next.title }}</span>
         <span class="opacity-50 block">Next Project</span>

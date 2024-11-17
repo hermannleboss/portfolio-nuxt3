@@ -3,8 +3,6 @@
 import PresentationCard from "~/components/PresentationCard.vue";
 import CallToAction from "~/components/CallToAction.vue";
 
-const presentation = {imageUrl: '~/assets/images/homepage/desktop/image-homepage-hero.jpg', url: "/portfolio/1"}
-
 import projectsData from "~/assets/projects.json"
 
 // Type the projects

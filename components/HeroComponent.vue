@@ -4,16 +4,31 @@
         alt="image"
         class="hidden xl:block w-full"
         src="/images/homepage/desktop/image-homepage-hero.jpg"
+        width="1110px"
+        height="600px"
+        placeholder
+        format="webp"
+        loading="lazy"
     />
     <NuxtImg
         alt="image"
         class="hidden md:block xl:hidden w-full"
         src="/images/homepage/tablet/image-homepage-hero.jpg"
+        format="webp"
+        width="688px"
+        height="600px"
+        placeholder
+        loading="lazy"
     />
     <NuxtImg
         alt="image"
         class="block md:hidden w-full"
         src="/images/homepage/mobile/image-homepage-hero.jpg"
+        format="webp"
+        width="311px"
+        height="271px"
+        placeholder
+        loading="lazy"
     />
 
     <div class="hero-text sm:absolute border border-very-light-gray bg-very-light-gray bottom-0 left-0">
@@ -45,3 +60,5 @@
 }
 
 </style>
+<script setup lang="ts">
+</script>
