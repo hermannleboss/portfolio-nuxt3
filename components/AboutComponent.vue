@@ -4,16 +4,12 @@
       <!-- <img
           alt="Profile image"
           class="w-full min-h-max object-cover h-full"
-<<<<<<< Updated upstream
-          src="../assets/images/homepage/desktop/hermann-eho.jpg"
-=======
           src="/images/homepage/desktop/hermann-eho.jpg"
       /> -->
       <img
           alt="Profile image"
           class="w-full min-h-max object-cover h-full"
           src="/images/homepage/desktop/hermann.jpg"
->>>>>>> Stashed changes
       />
     </div>
     <div class="flex justify-between items-start min-h-full md:max-w-[350px]">
