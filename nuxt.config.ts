@@ -1,8 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-<<<<<<< Updated upstream
-    devtools: {enabled: false},
-=======
     app: {
         head: {
             charset: 'utf-8',
@@ -13,7 +10,6 @@ export default defineNuxtConfig({
         }
     },
     devtools: {enabled: true},
->>>>>>> Stashed changes
     css: ['~/assets/css/main.scss'],
     modules: ['@nuxtjs/tailwindcss', "@nuxt/image", '@pinia/nuxt'],
     tailwindcss: {
