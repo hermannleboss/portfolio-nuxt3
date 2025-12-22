@@ -1,14 +1,14 @@
 <template>
   <div class="justify-start block md:flex mt-40 gap-24" id="about">
-    <div class="max-w-[540px] w-full md:min-w-[280px] ">
+    <div class="max-w-[540px] w-full md:min-w-[280px]">
       <!-- <img
           alt="Profile image"
           class="w-full min-h-max object-cover h-full"
           src="/images/homepage/desktop/hermann-eho.jpg"
       /> -->
-      <img
+      <img 
           alt="Profile image"
-          class="w-full min-h-max object-cover h-full"
+          class="w-full object-contain"
           src="/images/homepage/desktop/hermann.jpg"
       />
     </div>
