@@ -6,7 +6,10 @@ export default defineNuxtConfig({
             title: 'Hermann EHO | Web3 Developer',
             htmlAttrs: {
                 lang: 'en'
-            }
+            },
+            link: [
+                { rel: 'icon', type: 'image/x-icon', href: '/man.jpg' },
+            ],
         }
     },
     devtools: {enabled: true},
