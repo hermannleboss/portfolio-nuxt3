@@ -63,7 +63,7 @@ const prev = computed(() => {
             skill
           }} {{ index !== presentation.skills.length - 1 ? ' / ' : '' }} </span>
         </p>
-        <Button variant="secondary" :to="presentation.url">
+        <Button variant="secondary" v-if="presentation.url" :to="presentation.url">
           VIEW WEBSITE
         </Button>
       </div>

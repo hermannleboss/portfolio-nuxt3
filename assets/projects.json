@@ -1,5 +1,31 @@
 [
   {
+    "imageUrl": "/images/cnc.png",
+    "hero": "/images/cnc-preview.png",
+    "preview": [
+      "/images/cnc.png"
+    ],
+    "title": "CNC Portal",
+    "background": "The CNC Portal aims to provide entrepreneurs and organizations with a simple and secure way to create, govern, and manage Crypto Native Corporations (CNCs). Unlike traditional corporations, CNCs are globally distributed from inception, leveraging cryptocurrency for both economic exchange and governance. This project will deliver the first platform that makes spinning up and running a CNC as seamless as creating a GitHub repository. It lowers barriers to global entrepreneurship, enables borderless and transparent corporate structures, accelerates experimentation in Web3.0 governance and finance, and positions Globe & Citizen as a leader in decentralized business infrastructure.",
+    "description": "The CNC Portal is an innovative Web3 platform revolutionizing how entrepreneurs create and manage globally distributed, cryptocurrency-native corporations. With its user-centric design, seamless integration of smart contracts, wallet connectivity, and backend support, the CNC Portal ensures transparent governance, secure financial management, and fair token-based decision-making. It combines blockchain infrastructure with intuitive interfaces to provide treasury management, payroll systems, governance voting, and micropayment capabilities—making decentralized corporate structures accessible to everyone.",
+    "skills": [
+      "Solidity",
+      "Hardhat",
+      "Web3.js",
+      "TypeScript",
+      "Node.js",
+      "Vue.js",
+      "React",
+      "Docker",
+      "Ethereum/EVM",
+      "Smart Contracts",
+      "Wallet Integration",
+      "HTML",
+      "CSS"
+    ],
+    "url": "https://cncportal.io"
+  },
+  {
     "imageUrl": "/images/ct.jpg",
     "hero": "/images/ct-hero.jpg",
     "preview": [
