@@ -1,5 +1,4 @@
 import * as Sentry from '@sentry/node'
-import { ProfilingIntegration } from '@sentry/profiling-node'
 export default defineNitroPlugin((nitroApp) => {
     const { public: { sentry } } = useRuntimeConfig()
     // If no sentry DSN set, ignore and warn in the console
@@ -11,13 +10,8 @@ export default defineNitroPlugin((nitroApp) => {
     Sentry.init({
         dsn: sentry.dsn,
         environment: sentry.environment,
-        integrations: [
-            new ProfilingIntegration(),
-        ],
         // Performance Monitoring
-        tracesSampleRate: 1.0, // Change in production!
-        // Set sampling rate for profiling - this is relative to tracesSampleRate
-        profilesSampleRate: 1.0 // Change in production!
+        tracesSampleRate: 1.0
     })
     // Here comes the hooks
 })

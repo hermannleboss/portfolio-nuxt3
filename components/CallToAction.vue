@@ -1,9 +1,10 @@
 <template>
-  <div class="mt-32 mb-20 sm:my-24 md:my-36 flex flex-col sm:flex-row gap-10 sm:gap-8 items-center">
-    <h3 class="title-2 font-serif text-center sm:text-left max-w-[350px]">Interested in doing a project together?</h3>
-    <span class="hidden sm:flex flex-1 border border-light-gray-2 h-0"></span>
-    <Button variant="secondary" to="/contact" class="sm:my-4">
-      CONTACT ME
-    </Button>
-  </div>
+  <section class="contact-banner section-space" aria-labelledby="contact-banner-title">
+    <div>
+      <p class="eyebrow">Let's talk</p>
+      <h2 id="contact-banner-title">Building a Vue product that needs a senior engineer?</h2>
+      <p>I am open to senior frontend roles and focused contracts with remote teams.</p>
+    </div>
+    <NuxtLink class="button button-outline" to="/contact">Contact me</NuxtLink>
+  </section>
 </template>
