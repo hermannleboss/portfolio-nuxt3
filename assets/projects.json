@@ -1,131 +1,138 @@
 [
   {
-    "imageUrl": "/images/cnc.png",
-    "hero": "/images/cnc-preview.png",
-    "preview": [
-      "/images/cnc.png"
-    ],
+    "id": 0,
     "title": "CNC Portal",
-    "background": "The CNC Portal aims to provide entrepreneurs and organizations with a simple and secure way to create, govern, and manage Crypto Native Corporations (CNCs). Unlike traditional corporations, CNCs are globally distributed from inception, leveraging cryptocurrency for both economic exchange and governance. This project will deliver the first platform that makes spinning up and running a CNC as seamless as creating a GitHub repository. It lowers barriers to global entrepreneurship, enables borderless and transparent corporate structures, accelerates experimentation in Web3.0 governance and finance, and positions Globe & Citizen as a leader in decentralized business infrastructure.",
-    "description": "The CNC Portal is an innovative Web3 platform revolutionizing how entrepreneurs create and manage globally distributed, cryptocurrency-native corporations. With its user-centric design, seamless integration of smart contracts, wallet connectivity, and backend support, the CNC Portal ensures transparent governance, secure financial management, and fair token-based decision-making. It combines blockchain infrastructure with intuitive interfaces to provide treasury management, payroll systems, governance voting, and micropayment capabilities—making decentralized corporate structures accessible to everyone.",
-    "skills": [
-      "Solidity",
-      "Hardhat",
-      "Web3.js",
-      "TypeScript",
-      "Node.js",
-      "Vue.js",
-      "React",
-      "Docker",
-      "Ethereum/EVM",
-      "Smart Contracts",
-      "Wallet Integration",
-      "HTML",
-      "CSS"
+    "summary": "A Vue application for governance, treasury, accounting and contributor payments. I lead frontend and cross-layer delivery for complex wallet and financial workflows.",
+    "role": "Web3 tech lead and full-stack engineer, Globe & Citizen",
+    "period": "2022–present",
+    "status": "Active product",
+    "contributions": [
+      "Lead Vue 3 and TypeScript delivery across wallet, treasury, governance and accounting journeys.",
+      "Connect interface decisions to API, smart-contract and signing rules so users can understand sensitive actions.",
+      "Review code, coordinate sprint work and validate changes with automated tests and CI."
     ],
-    "url": "https://cncportal.io"
+    "stack": ["Vue 3", "TypeScript", "TanStack Query", "wagmi/viem", "Node.js", "Solidity"],
+    "imageUrl": "/images/cnc-preview.png",
+    "externalUrl": "https://github.com/globe-and-citizen/cnc-portal",
+    "externalLabel": "Explore the public repository",
+    "featured": true
   },
   {
-    "imageUrl": "/images/ct.jpg",
-    "hero": "/images/ct-hero.jpg",
-    "preview": [
-      "/images/ct-preview.jpg",
-      "/images/ct-preview-2.jpg"
-    ],
+    "id": 1,
     "title": "Crypto Tips",
-    "background": "Crypto Tip, the app that revolutionizes how you show appreciation and support to your team. Imagine being part of an incredible team, where every member's contribution is valued equally. With Crypto Tip, you can effortlessly send tips to each team member's wallet address, ensuring that everyone receives an equal share of cryptocurrency. Say goodbye to the hassle and confusion of manual calculations—Crypto Tip guarantees fairness and unity with just a few taps. Whether you're an artist, developer, or activist, Crypto Tip empowers you to reward and uplift your team, fostering a spirit of collaboration and equality.",
-    "description": "CryptoTips is an innovative application revolutionizing team-based cryptocurrency tipping. With its user-centric design, seamless integration of smart contracts, and backend support, CryptoTips ensures fair and transparent distribution of crypto rewards among team members",
-    "skills": [
-      "Quasar",
-      "Solidity",
-      "Hardhat",
-      "Docker",
-      "HTML",
-      "CSS",
-      "Typescript"
+    "summary": "An earlier prototype for splitting cryptocurrency tips across a team.",
+    "role": "Frontend and smart-contract development",
+    "period": "Earlier work",
+    "status": "Prototype; hosted demo unavailable",
+    "contributions": [
+      "Built a Quasar interface for defining a team and distributing a tip.",
+      "Connected the interface to Solidity contract interactions."
     ],
-    "url": "https://crypto-tip-app.web.app/"
+    "stack": ["Quasar", "TypeScript", "Solidity", "Hardhat"],
+    "imageUrl": "/images/ct.jpg",
+    "externalUrl": "https://github.com/hermannleboss/crypto-tip",
+    "externalLabel": "Explore the source",
+    "featured": false
   },
   {
-    "imageUrl": "/images/cf.jpg",
-    "hero": "/images/cf-hero.jpg",
-    "preview": [
-      "/images/cf-preview.jpg",
-      "/images/cf-preview-2.jpg"
-    ],
+    "id": 2,
     "title": "Celebrity Fanalyzer",
-    "background": "Celebrity Fanalyzer is intended to be a project of very limited scope. It is to host entries to a competitions run via the Freelancer web platform. It is to be a simple web application with the primary functionality being limited to CRUD operations and the representation of user reactions through rich graphical renderings. Any financial integration is to be avoided as is the gathering of personal information. Prior to being recast as Globe&Citizen, the company will complete work on an anonymizing HTTP reverse proxy called, \"Layer8.\" This anonymizing reverse proxy will have the sole purpose of removing from user requests all identifying information. This will allow Globe&Citizen to reflect usage statistics publicly without any possibility of leaking personal information -- this is absolutely fundamental to success.",
-    "description": "Celebrity Fanalyzer is the initial testing ground for an online news media platform called “Globe & Citizen.” The purpose of this pilot project is to expose unknown unknowns in the product development lifecycle, user experience, and software architecture. It is also to test functionality.",
-    "skills": [
-      "Quasar",
-      "Unit Testing",
-      "End to End Testing",
-      "CI/CD",
-      "HTML",
-      "CSS",
-      "JS"
+    "summary": "A Globe & Citizen pilot used to explore a content product and its interaction patterns.",
+    "role": "Frontend development",
+    "period": "Earlier work",
+    "status": "Pilot",
+    "contributions": [
+      "Built and tested interactive views in a Quasar application.",
+      "Used the pilot to validate product and frontend approaches before a larger platform."
     ],
-    "url": "https://celebrityfanalyzer.com/"
+    "stack": ["Quasar", "JavaScript", "Frontend testing"],
+    "imageUrl": "/images/cf.jpg",
+    "externalUrl": "https://celebrityfanalyzer.com/",
+    "externalLabel": "Visit the website",
+    "featured": false
   },
   {
-    "imageUrl": "/images/mg.png",
-    "hero": "/images/mg-hero.png",
-    "preview": [
-      "/images/mg-preview.png",
-      "/images/mg-preview-2.png"
-    ],
+    "id": 3,
     "title": "Municipalities Content Manager",
-    "background": "Municipalities Content Manager is an innovative platform tailored to meet the needs of municipalities in Togo. This versatile tool seamlessly integrates a dynamic website and a customized Content Management System (CMS). Designed to streamline communication and internal management, Mairie Content Manager offers a comprehensive range of features. It facilitates easy article management, a digital library, coordination of various municipal services including online appointment scheduling, and efficient handling of diverse committees. This application is devised to enhance productivity and accessibility of municipal services, providing a comprehensive solution tailored to the specific requirements of Togolese municipalities.",
-    "description": "An integrated platform tailored for Togo's municipalities, offering a dynamic website and a customizable Content Management System. Streamlining communication and management, it includes features like article management, a digital library, service coordination with online appointment scheduling, and efficient committee handling.",
-    "skills": [
-      "Quasar",
-      "Unit Testing",
-      "End to End Testing",
-      "CI/CD",
-      "HTML",
-      "CSS",
-      "JS"
+    "summary": "A website and content management interface for municipal information and services in Togo.",
+    "role": "Frontend development",
+    "period": "Earlier work",
+    "status": "Public website available",
+    "contributions": [
+      "Worked on public information and content-management interfaces.",
+      "Supported responsive access to municipal content and services."
     ],
-    "url": "https://golfe3.mairie.tg/"
+    "stack": ["Quasar", "JavaScript", "Frontend testing"],
+    "imageUrl": "/images/mg.png",
+    "externalUrl": "https://www.golfe3.mairie.tg/",
+    "externalLabel": "Visit the website",
+    "featured": false
   },
   {
-    "imageUrl": "/images/ch-2000.png",
-    "hero": "/images/ch-2000-hero.png",
-    "preview": [
-      "/images/ch-2000-preview.png",
-      "/images/ch-2000-preview-2.png"
-    ],
+    "id": 4,
     "title": "CH2000",
-    "background": "This project was a front-end challenge from Frontend Mentor. It’s a platform that enables you to practice building websites to a design and project brief. Each challenge includes mobile and desktop designs to show how the website should look at different screen sizes. Creating these projects has helped me refine my workflow and solve real-world coding problems. I’ve learned something new with each project, helping me to improve and adapt my style.",
-    "description": "This project required me to build a fully responsive landing page to the designs provided. I used HTML5, along with CSS Grid and JavaScript for the areas that required interactivity, such as the testimonial slider.",
-    "skills": [
-      "Laravel",
-      "Front End Development",
-      "HTML",
-      "CSS",
-      "JS"
+    "summary": "A responsive web presence for a client project from earlier in my career.",
+    "role": "Frontend and Laravel development",
+    "period": "Earlier work",
+    "status": "Public website available",
+    "contributions": [
+      "Implemented responsive pages and interactive elements for the client website."
     ],
-    "url": "https://ch2000.net/"
+    "stack": ["Laravel", "HTML", "CSS", "JavaScript"],
+    "imageUrl": "/images/ch-2000.png",
+    "externalUrl": "https://www.ch2000.net/",
+    "externalLabel": "Visit the website",
+    "featured": false
   },
   {
-    "imageUrl": "/images/sa.png",
-    "hero": "/images/sa-hero.png",
-    "preview": [
-      "/images/sa-preview.png",
-      "/images/sa-preview-2.png"
-    ],
+    "id": 5,
     "title": "Soins & Assistance",
-    "background": "'Soins & Assistance' is a platform dedicated to healthcare professionals looking for professional opportunities. Our platform provides simplified access to a wide range of medical and support job openings, making the recruiting process easier for qualified candidates. Whether you are a nurse, doctor, caregiver or health professional, our site helps you find positions matching your skills and easily move through the different recruitment stages.",
-    "description": "Soins & Assistance is a job search site specializing in the field of care and health.",
-    "skills": [
-      "Symfony",
-      "Front End Development",
-      "HTML",
-      "Bootstrap",
-      "CSS",
-      "JS",
-      "PHP"
+    "summary": "A healthcare job site built earlier in my full-stack career.",
+    "role": "Full-stack web development",
+    "period": "Earlier work",
+    "status": "Public website available",
+    "contributions": [
+      "Built job discovery and application interfaces for healthcare roles."
     ],
-    "url": "http://sa.hermanneho.com/"
+    "stack": ["Symfony", "PHP", "Bootstrap", "JavaScript"],
+    "imageUrl": "/images/sa.png",
+    "externalUrl": "http://sa.hermanneho.com/",
+    "externalLabel": "Visit the website",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "title": "OrientApp",
+    "summary": "A Nuxt platform that helps students in Togo explore schools, programmes and practical information after the baccalaureate.",
+    "role": "Founder and full-stack engineer, W3 Frame",
+    "period": "2026",
+    "status": "Live product",
+    "contributions": [
+      "Designed and developed Nuxt interfaces for discovery, orientation and account journeys.",
+      "Structured typed API access and reusable UI conventions across complex forms and responsive states.",
+      "Connected the frontend to a Laravel API and a catalogue of education data."
+    ],
+    "stack": ["Nuxt", "Vue 3", "TypeScript", "Laravel", "PostgreSQL"],
+    "imageUrl": "/images/orientapp.jpeg",
+    "externalUrl": "https://orientapp.w3frame.com/",
+    "externalLabel": "Explore the live product",
+    "featured": true
+  },
+  {
+    "id": 7,
+    "title": "OrgaAfrica",
+    "summary": "Web interfaces for a restaurant service platform, including public and operational surfaces.",
+    "role": "Founder and full-stack engineer, W3 Frame",
+    "period": "2024–2025",
+    "status": "Client work",
+    "contributions": [
+      "Contributed Vue/Nuxt interfaces across the public site and back-office workflows.",
+      "Worked on dashboard and operational journeys with attention to responsive use and maintainability."
+    ],
+    "stack": ["Vue", "Nuxt", "TypeScript", "Back-office UI"],
+    "imageUrl": "/images/orga.jpeg",
+    "externalUrl": "https://www.orga-africa.com/",
+    "externalLabel": "Visit the client website",
+    "featured": true
   }
 ]

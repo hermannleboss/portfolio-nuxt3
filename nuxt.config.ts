@@ -3,16 +3,16 @@ export default defineNuxtConfig({
     app: {
         head: {
             charset: 'utf-8',
-            title: 'Hermann EHO | Web3 Developer',
+            title: 'Hermann EHO | Senior Vue/Nuxt Engineer',
             htmlAttrs: {
                 lang: 'en'
             },
             link: [
-                { rel: 'icon', type: 'image/x-icon', href: '/man.jpg' },
+                { rel: 'icon', type: 'image/png', href: '/images/favicon-32x32.png' },
             ],
         }
     },
-    devtools: {enabled: true},
+    devtools: {enabled: false},
     css: ['~/assets/css/main.scss'],
     modules: ['@nuxtjs/tailwindcss', "@nuxt/image", '@pinia/nuxt'],
     tailwindcss: {
